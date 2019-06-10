@@ -32,7 +32,7 @@ const server = new Hapi.Server({
 const startup = async () => {
     await server.register([ 
         {
-            plugin: require('./vaultPlugin'),
+            plugin: require('hapi-azure-msi-vault-plugin'),
             options: {
                kvUri: 'https://<<YOUR VAULT HERE>>.vault.azure.net/'
             }

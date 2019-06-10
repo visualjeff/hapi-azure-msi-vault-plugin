@@ -1,6 +1,6 @@
 {
   "name": "hapi-azure-msi-vault-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Hapi v18 azure msi vault plugin",
   "author": "visualjeff <visualjeff@icloud.com>",
   "repository": "git://github.com/visualjeff/hapi-azure-msi-vault-plugin.git",
