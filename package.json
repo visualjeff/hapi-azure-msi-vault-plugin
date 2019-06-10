@@ -1,0 +1,27 @@
+{
+  "name": "hapi-azure-msi-vault-plugin",
+  "version": "0.0.1",
+  "description": "A Hapi v18 azure msi vault plugin",
+  "author": "visualjeff <visualjeff@icloud.com>",
+  "repository": "git://github.com/visualjeff/hapi-azure-msi-vault-plugin.git",
+  "bugs": {
+    "url": "https://github.com/visualjeff/hapi-azure-msi-vault-plugin/issues"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "hapi",
+    "plugin",
+    "azure",
+    "msi",
+    "vault"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {},
+  "dependencies": {
+    "azure-keyvault": "^3.0.4",
+    "ms-rest-azure": "^2.6.0"
+  },
+  "license": "MIT"
+}
