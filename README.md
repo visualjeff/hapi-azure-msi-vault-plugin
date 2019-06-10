@@ -1,11 +1,11 @@
 
 ## About hapi-azure-msi-vault-plugin
 
-Tested with Hapi 18.
+Tested successfully against Azure with Hapi v18.
 
 [![Build Status](https://travis-ci.org/visualjeff/hapi-azure-msi-vault-plugin.png)](https://travis-ci.org/visualjeff/hapi-azure-msi-plugin)
 
-## Install
+## Install:
 ```
 npm install hapi-azure-msi-vault-plugin --save
 ```
@@ -17,7 +17,7 @@ Setup an Azure Vault:
 [https://azure.microsoft.com/en-us/resources/samples/key-vault-node-getting-started/](https://azure.microsoft.com/en-us/resources/samples/key-vault-node-getting-started/)
 
 
-## Usage
+## Usage:
 
 ```js
 'use strict';
